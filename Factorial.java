@@ -5,7 +5,7 @@ public class Factorial {
 
 	public static void main(String[] args) {
 		Factorial f = new Factorial();
-		System.out.println(f.factorialWithoutRecursion(5));
+		System.out.println(f.factorial(5));
 
 	}
 

@@ -5,7 +5,7 @@ public class Fibonacci {
 
 	public static void main(String[] args) {
 		Fibonacci f = new Fibonacci();
-		System.out.println(f.fibWithoutRecursion(5));
+		System.out.println(f.fib(5));
 	}
 
 	private int fib(int n) {
