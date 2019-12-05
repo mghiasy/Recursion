@@ -9,7 +9,7 @@ public class Factorial {
 
 	}
 
-	private int factorialWithoutRecursion(int n) {
+	private int factorial(int n) {
 		int factorial = 1;
 		for (int i = n; i > 0; i--) {
 			factorial = factorial * i;

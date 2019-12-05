@@ -8,7 +8,7 @@ public class Fibonacci {
 		System.out.println(f.fibWithoutRecursion(5));
 	}
 
-	private int fibWithoutRecursion(int n) {
+	private int fib(int n) {
 		int n1 = 0;
 		int n2= 1;
 		int sum= 0;
