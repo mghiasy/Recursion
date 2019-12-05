@@ -1,4 +1,4 @@
-package withoutRecursion;
+package withRecursion;
 
 //Without recursion
 public class Factorial {
@@ -10,11 +10,9 @@ public class Factorial {
 	}
 
 	private int factorial(int n) {
-		int factorial = 1;
-		for (int i = n; i > 0; i--) {
-			factorial = factorial * i;
-		}
-		return factorial;
+		if(n==0) return 1;
+		
+		else return factorial(n-1)* n;
 	}
 
 }
