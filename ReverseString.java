@@ -1,4 +1,4 @@
-package lab4.prog4_2;
+package recursion;
 
 public class ReverseString {
 
